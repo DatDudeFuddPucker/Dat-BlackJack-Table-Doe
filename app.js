@@ -116,6 +116,7 @@ function getPoints(player)
     players[player].Points = points;
     return points;
 }
+//update player Points as cards are added to hand. 
 function updatePoints()
 {
     for (var i = 0 ; i < players.length; i++)
@@ -158,9 +159,10 @@ function end() {
     document.getElementById('status').innerHTML = 'Winner: Player ' + players[winner].ID;
     document.getElementById('status').style.display = "inline-block";
 }
+//checks the players points to see if their score is below the acceptable playable score.
 function check() {
     if (players[currentPlayer].Points > 21) {
-        document.getElementById('status').innerHTML = 'Player: ' + players[currentPlayer].ID + ' LOST';
+        document.getElementById('status').innerHTML = 'Player- ' + players[currentPlayer].ID + ' LOST' + ': This table DESERVES a better class of player!';
         document.getElementById('status').style.display = 'inline-block';
                 end();
     }
