@@ -3,7 +3,7 @@ var suits = ['Spades', 'Clovers', 'Diamonds', 'Hearts'];
 var values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
 var deck = new Array();
 var players = new Array();
-var currentPlayer = 0;
+
 
 function createDeck() {
     deck = new Array();
