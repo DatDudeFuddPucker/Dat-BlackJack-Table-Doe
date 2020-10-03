@@ -6,11 +6,10 @@ body{
 width: 1000px;
 height: 700px;
 margin: 0 auto;
-background: Navy;
-border: solid 30px silver;
 text-align:center;
 min-height:430px;
 background-image: url('Three-Joker.jpg');
+
 }
 
 .btn{
@@ -27,8 +26,8 @@ background-image: url('Three-Joker.jpg');
 .game h3
 {
 padding: 10px;
-background: yellow;
-color:black;
+/* background: yellow; */
+color:White;
 }
 
 .game .game-body
@@ -71,7 +70,7 @@ display:none;
 margin: 0 auto;
 margin-top: 20px;
 text-align: center;
-background-color: black;
+/* background-color: black; */
 color: black;
 }
 
