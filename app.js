@@ -63,6 +63,7 @@ function mixEmUp() {
 }
 function startblackjack() {
     document.getElementById('btnStart').value = 'Deal Em Again!!!';
+    document.getElementById('status').style.display = 'none';
     currentPlayer = 0;
     createDeck();
     mixEmUp();
