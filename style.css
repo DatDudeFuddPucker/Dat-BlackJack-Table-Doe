@@ -1,3 +1,6 @@
+body{
+    background-image: url('Three-Jokers.jpg')
+}
 .game
 {
 width: 1000px;
@@ -7,6 +10,7 @@ background: Navy;
 border: solid 30px silver;
 text-align:center;
 min-height:430px;
+background-image: url('Three-Joker.jpg');
 }
 
 .btn{
